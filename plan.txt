@@ -1,0 +1,67 @@
+
+
+
+
+
+
+	-----------------Stack machine-------------
+	class FixedStack
+		push
+		pop
+		top
+
+		size_t
+
+	char Tokens(const char*)
+		static const char *tokens[] = {
+			"}"
+			"{"
+			"sub"
+			"return"
+			"push"
+			"pop"
+			"peek"
+			"mul"
+			"main"
+			"ifgr"
+			"ifeq"
+			"goto"
+			"function"
+			"dup"
+			"div"
+			"callext"
+			"call"
+			"add"
+			":"
+			"#"
+		};
+	execute
+	
+
+	operation(char operation)
+		enum
+			openbrace
+			closebrace
+			sub
+			return
+			push
+			pop
+			peek
+			mul
+			main
+			ifgr
+			ifeq
+			goto
+			function
+			dup
+			div
+			callext
+			call
+			colon
+			hash
+		switch{}
+
+
+
+
+
